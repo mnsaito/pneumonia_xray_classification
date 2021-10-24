@@ -66,8 +66,7 @@ I found that LeNet5 performed best on the data.  I therefore used LeNet5 as a ba
 
 ## Results
 
-Validation loss improved after 4 epochs:
-![loss results](reports/figures/loss_results.png)
+Validation loss improved after 4 epochs:  ![loss results](reports/figures/loss_results.png)
 
 Validation accuracy and recall did not perform very well:
 ![accuracy results](reports/figures/accuracy_results.png) ![recall results](reports/figures/recall_results.png)
