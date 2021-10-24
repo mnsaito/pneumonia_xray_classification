@@ -52,11 +52,11 @@ As shown below, the average brightness of the normal x-rays aligns with the aver
 
 ## Model Development
 
-Initially I ran two very simple models: one baseline model with a single hidden layer, and one convolutional neural network with a single hidden layer.  To review the simple models, please review my [Simple Model notebook](../exploratory/simple_models.ipynb).
+Initially I ran two very simple models: one baseline model with a single hidden layer, and one convolutional neural network with a single hidden layer.  To review the simple models, please review my [Simple Model notebook](notebook/exploratory/simple_models.ipynb).
 
-I then tried various classic algorithms on the data to determine which provided the best predictions on the data.  To review the analysis on the classic algorithms, please review my [Classic Architectures notebook](../exploratory/classic_architectures.ipynb).
+I then tried various classic algorithms on the data to determine which provided the best predictions on the data.  To review the analysis on the classic algorithms, please review my [Classic Architectures notebook](notebook/exploratory/classic_architectures.ipynb).
   
-I found that LeNet5 performed best on the data.  I therefore used LeNet5 as a basis for my models.  To review my modeling process, please review my [Build Models Notebook](../exploratory/build_models.ipynb).
+I found that LeNet5 performed best on the data.  I therefore used LeNet5 as a basis for my models.  To review my modeling process, please review my [Build Models Notebook](notebook/exploratory/build_models.ipynb).
 
 ### Final Model
 - Started with LeNet5
@@ -65,9 +65,10 @@ I found that LeNet5 performed best on the data.  I therefore used LeNet5 as a ba
 - Replaced ReLU activation functions with LeakyReLU
 
 ## Results
-- Validation loss improved after 4 epochs
+Validation loss improved after 4 epochs:
 ![loss results](reports/figures/loss_results.png)
-- Validation accuracy and recall did not perform very well
+
+Validation accuracy and recall did not perform very well:
 ![accuracy results](reports/figures/accuracy_results.png) ![recall results](reports/figures/recall_results.png)
 
 My model classified the test data with 54% accuracy and 65% recall:
@@ -76,7 +77,9 @@ My model classified the test data with 54% accuracy and 65% recall:
 But as depicted in the [LIME](https://github.com/marcotcr/lime) images below where pros (evidence of pneumonia) are highlighted in green and cons (evidence of not pneumonia) are highlighted in red, my model did not focus on the proper areas of the lungs:
 ![LIME images](reports/figures/lime_figure.png)
 
-The ![LIME heatmap](reports/figures/heatmap.png) confirms that the model focused on the wrong areas of the x-rays.
+The LIME heatmap confirms that the model focused on the wrong areas of the x-rays:
+![LIME heatmap](reports/figures/heatmap.png)
+
 
 ## Conclusion
 - I created a convolutional neural network model that classifies x-rays of patients with pneumonia.
