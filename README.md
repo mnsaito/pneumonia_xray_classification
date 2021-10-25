@@ -92,3 +92,4 @@ The LIME heatmap confirms that the model focused on the wrong areas of the x-ray
 
 ## Next Steps
 - Continue adjusting model parameters to improve model classification
+- Obtain input from radiologists to ensure model considers appropriate features
