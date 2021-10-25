@@ -66,18 +66,20 @@ I found that LeNet5 performed best on the data.  I therefore used LeNet5 as a ba
 
 ## Results
 
-Validation loss improved after 4 epochs:  ![loss results](reports/figures/loss_results.png)
+Validation loss improved after 4 epochs:\
+![loss results](reports/figures/loss_results.png)
 
-Validation accuracy and recall did not perform very well:
-![accuracy results](reports/figures/accuracy_results.png) ![recall results](reports/figures/recall_results.png)
+Validation accuracy and recall did not perform very well:\
+![accuracy results](reports/figures/accuracy_results.png) 
+![recall results](reports/figures/recall_results.png)
 
-My model classified the test data with 54% accuracy and 65% recall:
+My model classified the test data with 54% accuracy and 65% recall:\
 ![confusion matrix](reports/figures/confusion_matrix.png)
 
-But as depicted in the [LIME](https://github.com/marcotcr/lime) images below where pros (evidence of pneumonia) are highlighted in green and cons (evidence of not pneumonia) are highlighted in red, my model did not focus on the proper areas of the lungs:
+But as depicted in the [LIME](https://github.com/marcotcr/lime) images below where pros (evidence of pneumonia) are highlighted in green and cons (evidence of not pneumonia) are highlighted in red, my model did not focus on the proper areas of the lungs:\
 ![LIME images](reports/figures/lime_figure.png)
 
-The LIME heatmap confirms that the model focused on the wrong areas of the x-rays:
+The LIME heatmap confirms that the model focused on the wrong areas of the x-rays:\
 ![LIME heatmap](reports/figures/heatmap.png)
 
 
