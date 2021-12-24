@@ -35,7 +35,7 @@
 
 To create a replica of the environment needed to run my notebook, run: 
 
-conda env create --file xrays.yml
+`conda env create --file xrays.yml`
 
 ## Data Understanding
 
