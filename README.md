@@ -8,6 +8,8 @@
 ├── README.md        <-- Main README file explaining the project's business case,
 │                        methodology, and findings
 │
+├── xrays.yml       <-- Environment to run notebook
+│
 ├── chest_xray       <-- Data in jpeg format
 │   ├── train        <-- Training data used for modeling
 │   ├── new_val      <-- Validation data used for modeling
