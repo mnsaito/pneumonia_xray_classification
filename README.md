@@ -14,8 +14,6 @@
 │   ├── train        <-- Training data used for modeling
 │   ├── new_val      <-- Validation data used for modeling
 │   ├── new_test     <-- Test data used for modeling
-│   ├── val          <-- Original validation data (only includes 16 images)
-│   └── test         <-- Original test data (before moving 100 images to vaidation)
 │
 ├── model            <-- Final model
 │
