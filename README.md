@@ -13,7 +13,7 @@
 ├── chest_xray       <-- Data in jpeg format
 │   ├── train        <-- Training data used for modeling
 │   ├── new_val      <-- Validation data used for modeling
-│   ├── new_test     <-- Test data used for modeling
+│   └── new_test     <-- Test data used for modeling
 │
 ├── model            <-- Final model
 │
